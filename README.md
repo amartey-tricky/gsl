@@ -2,7 +2,7 @@
 
 ## Todo List
 
-- [ ] create nav bar
+- [x] create nav bar
 - [ ] create footer
 - [ ] create hero section
 - [ ] create contact page

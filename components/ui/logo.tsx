@@ -5,11 +5,12 @@ export function Logo() {
   return (
     <Link href="/" className="flex flex-row items-center justify-between">
       <CldImage
-      src="gsl_omvqsx"
+      src="gsl_logo_crstj2"
       alt="GSL Logo"
       width={270}
       height={158}
-      loading="lazy"
+      className="w-[100px]"
+      priority="false"
        />
     </Link>
   )
