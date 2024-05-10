@@ -18,6 +18,10 @@ const Links = [
     href: "/contact",
     text: "Contact",
   },
+  {
+    href: "/calculator",
+    text: "Cost Calculator",
+  },
 ]
 
 export function NavLinks() {
@@ -25,7 +29,7 @@ export function NavLinks() {
     <nav className="hidden lg:flex gap-12 text-xl">
       {Links.map((link) => {
         return(
-          <Link key={link.text} href={link.href} className={clsx("font-medium hover:text-2xl hover:text-[#d54c08] ease-linear duration-200")}>{link.text}</Link>
+          <Link key={link.text} href={link.href} prefetch className={clsx("font-medium hover:text-2xl hover:text-[#d54c08] ease-linear duration-200")}>{link.text}</Link>
         )
       })}
     </nav>
