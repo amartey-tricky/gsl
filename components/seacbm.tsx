@@ -12,7 +12,7 @@ export default function SeaCalculator() {
   const seaPrice = () => {
     const cbm = (length * width * height) / 1000000;
     const totalCbm = cbm * numBoxes;
-    setPrice(totalCbm * 175);
+    setPrice(totalCbm * 265);
   };
 
   return (
