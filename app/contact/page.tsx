@@ -12,7 +12,7 @@ export default function Page() {
           <ContactDetails />
         </div>
         {/* <hr className="block w-full mx-auto border-slate-500 md:hidden" /> */}
-        <div className="pt-10 md: pt-0">
+        <div className="pt-10 md:pt-0">
         <ContactForm />
         </div>
       </section>
