@@ -133,6 +133,10 @@ export default function Contact() {
             </div>
           </form>
         </div>
+
+        <div className="pt-6 mt-12 md:mt-24 max-w-screen-lg">
+        <iframe title='GSL Location' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1389.7203097062065!2d-0.02311458363228424!3d5.6636654804334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf8115ed6712db%3A0x2e34a1be6b693f38!2sGolden%20Stone%20Logistics!5e0!3m2!1sen!2sus!4v1715433624236!5m2!1sen!2sus" loading='lazy' referrerPolicy='no-referrer-when-downgrade' allowFullScreen width={1200} height={400} />
+        </div>
       </div>
     </div>
   );

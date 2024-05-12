@@ -7,12 +7,12 @@ const Links = [
     text: "Home",
   },
   {
-    href: "/services",
-    text: "Services",
-  },
-  {
     href: "/about",
     text: "About",
+  },
+  {
+    href: "/services",
+    text: "Services",
   },
   {
     href: "/contact",
